@@ -447,13 +447,57 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   color: #fefefe;
-  border: none;
+  border: 1px solid transparent;
   display: inline-block;
   padding: 16px 36px 15px;
   background-color: #c5ac2d;
   margin-top: 50px;
   font-size: 16px;
   line-height: 19px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.feedback__btn:hover {
+  background-color: #fefefe;
+  color: #c5ac2d;
+  border: 1px solid #c5ac2d;
+}
+
+.footer {
+  padding: 100px 0 24px;
+  background: #332208;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__social-link {
+  margin: 0 15px;
+}
+
+.menu__list-link {
+}
+.phone {
+}
+.footer__social {
+}
+.footer__social-item {
+}
+.footer__social-link {
+}
+.footer__social-img {
 }
 
 
