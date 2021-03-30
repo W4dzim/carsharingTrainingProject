@@ -19,11 +19,11 @@ a {
 }
 
 body {
-  color: #1b1818;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
+  color: #1b1818;
   font-size: 16px;
   line-height: 19px;
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header {
@@ -103,6 +103,7 @@ body {
   padding: 16px 19px 15px;
   border: 1px solid transparent;
   transition: all .5s;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -388,12 +389,71 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 35px;
-
 }
 
 .reviews__slider button {
   margin: 0 5px;
   line-height: 12px;
+}
+
+.feedback {
+  padding: 100px 0;
+}
+
+.feedback__inner {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__img {
+  width: 50%;
+}
+
+.feedback__form {
+  width: 415px;
+  margin: 0 auto;
+}
+
+.feedback__title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px; 
+  margin-bottom: 5px;
+}
+
+.feedback__text {
+  margin-bottom: 30px;
+}
+
+.feedback__input {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.feedback__input::placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  line-height: 19px;
+  font-size: 16px;
+  color: #1b1818;
+}
+
+.feedback__btn {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fefefe;
+  border: none;
+  display: inline-block;
+  padding: 16px 36px 15px;
+  background-color: #c5ac2d;
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 
